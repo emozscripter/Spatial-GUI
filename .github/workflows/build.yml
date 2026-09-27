@@ -10,7 +10,7 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
       - run: chmod +x gradlew
-      - run: ./gradlew :20.1-fabric:build
+      - run: ./gradlew :26.2-fabric:build
       - uses: actions/upload-artifact@v4
         with:
           name: Spatial-GUI-Jar
