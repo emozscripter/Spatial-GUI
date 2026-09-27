@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "spatial-gui",
+  "id": "spatial_gui",
   "version": "1.3",
   "name": "Spatial GUI",
   "description": "A client-side mod that renders inventory & container screens as a 3D plane.",
@@ -24,9 +24,8 @@
     "spatial-gui.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "~${minecraft_version}",
-    "cloth-config": ">=26.0.0"
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*",
+    "cloth-config": "*"
   }
 }
